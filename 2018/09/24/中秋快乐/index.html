@@ -313,6 +313,22 @@
   
 
   
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://yoursite.com/2018/09/24/中秋快乐/",
+  owner: 'Liar2Strong',
+  repo: 'Liar2Strong.github.io',
+  oauth: {
+    client_id: 'f4de83ea3b07f13d8b31',
+    client_secret: '82d3e9f0957fc731c5d0c5927879afc5a3f7f24a',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+  
 
 
           </div>
